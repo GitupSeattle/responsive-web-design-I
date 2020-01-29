@@ -155,4 +155,63 @@ footer {
 	font-size: 12px;
 }
 
+/* At 800px [Tablet VIEW] And below do the following: */
+@media (max-width: 800px) {
+    .contentbox1 img {
+        display: none;
+    }
+
+    nav {
+    display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	width: 100%;
+    
+    }
+
+    .contentbox2 {
+        display: flex;
+        width: 600px;
+        
+    }
+
+    .contentbox3 {
+        display: flex;
+        width: 600px;
+    
+    }
+}
+
+ /* At 500px [Mobile VIEW] And below do the following: */
+ @media (max-width: 500px) {
+    .contentbox1 img {
+        display: none;
+    }
+    
+    .contentbox2 {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        
+    }
+
+    .contentbox3 {
+        display: flex;
+        width: 500px;
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        font-size: 30px;
+        width: 100px;
+        flex-direction: column-reverse;
+        
+    }
+
+    body {
+        width: 45%;
+    }
+}
+
 
