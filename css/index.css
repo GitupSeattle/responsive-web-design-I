@@ -113,6 +113,7 @@ body {
 	
 }
  .contentbox1_content p{
+	border: 2px solid black;
 	text-align: center;
 	width: 50%;
 	margin: 15%;
@@ -123,8 +124,7 @@ body {
 
 
 .contentbox2 {
-    border-top: 1px solid black;
-    display: flex;
+	display: flex;
 	flex: nowrap;
 	 /* display: inline-block;  */
 	margin: 0%;
@@ -145,12 +145,12 @@ body {
 	padding-top: 50px;
     padding-right: 30px;
 	padding-bottom: 50px;
-    font-size: 16px;
-    border-bottom: 1px solid black;
+	font-size: 16px;
 	
 }
 
 .contact {
+	border-top: 1px solid;
 	padding: 20px 0;	
 }
 
@@ -160,50 +160,22 @@ footer {
 	font-size: 12px;
 }
 
-.button{
-    background: white;
-    color: black;
-    border: 2px solid black;
-    font-size: 18px;
-    border-radius: 8px;
-}
-
 /* At 800px [Tablet VIEW] And below do the following: */
 @media (max-width: 800px) {
     .contentbox1 img {
         display: none;
     }
 
-    body{
-        width: 100%
-    }
-
     .Navfix {
         display: flex;
         flex-direction: column-reverse;
-        width: 100%;
-        justify-content: center;
+        
         
     }
     .nav_bar {
-        width: 100%;
-        display: flex;
-        justify-content:  flex-start;
+        width: 150%
          
       }
-    
-      nav {
-          display: flex;
-          /* justify-content: space-evenly; */
-          
-      }
-a:first-child{
-    margin-left: 12%;
-}
-      a{
-         padding-right: 20%;
-          
-        }
     
     .NavLogo {
         margin-left: auto;
