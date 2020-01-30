@@ -70,8 +70,13 @@ body {
     margin: auto;
 }
 
+.Navfix{
+    display: flex;
+   
+}
+
 .nav_bar {
-   width: 100%;
+  width: 60%
    
 }
 
@@ -161,17 +166,26 @@ footer {
         display: none;
     }
 
-    nav {
-    display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-	width: 100%;
-    
+    .Navfix {
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
     }
+    .nav_bar {
+        width: 150%
+         
+      }
+    
+    .NavLogo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
     .contentbox2 {
         display: flex;
-        width: 600px;
+        width: 500px;
         
     }
 
@@ -179,6 +193,10 @@ footer {
         display: flex;
         width: 600px;
     
+    }
+
+    .middle-img {
+        width: 800px;
     }
 }
 
@@ -205,13 +223,19 @@ footer {
         display: flex;
         font-size: 30px;
         width: 100px;
-        flex-direction: column-reverse;
+        flex-direction: column;
         
     }
 
     body {
         width: 45%;
     }
+
+    .middle-img {
+        width: 500px;
+    }
+
+   
 }
 
 
