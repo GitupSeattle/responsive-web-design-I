@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-    width: 100%;
+    width: 45%;
     margin: auto;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .nav_bar {
-  width: 40%;
+  width: 60%;
    
 }
 
@@ -165,6 +165,11 @@ footer {
     .contentbox1 img {
         display: none;
     }
+/* Fixes body problems at 800px and below */
+body{
+    width: 100%;
+    margin: none;
+}
 
     .Navfix {
         display: flex;
@@ -174,14 +179,12 @@ footer {
     }
     .nav_bar {
         width: 100%;
-       /* border: 1px solid black; */
-         display: flex;
+        display: flex;
          justify-content: center;
       }
     .nav_bar nav{
-        /* border: 1px solid black; */
         display: flex;
-        width: 100%;
+        width: 68%;
         flex-direction: row;
     }
 
@@ -247,19 +250,30 @@ footer {
 
     }
 
+    .contentbox1 {
+        display: flex;
+        align-items: left;
+        /* display: inline-block;*/
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px; 
+        padding-left: 90px;
+        border-bottom: 1px solid; 
+    }
+
     
 
     .contentbox2 {
         display: flex;
         flex-direction: column;
-        width: 500px;
+        width: 400px;
         
         
     }
 
     .contentbox3 {
         display: flex;
-        width: 500px;
+        width: 400px;
         flex-direction: column;
     }
 
@@ -284,7 +298,8 @@ footer {
     }
     
     body {
-        width: 100%;
+        width: 80%;
+        
     }
 
     .middle-img {
