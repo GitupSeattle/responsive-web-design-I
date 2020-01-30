@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body {
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
@@ -253,14 +253,27 @@ a:first-child{
         display: none;
     }
     
-    a{
+    a {
         border-top: solid;
+        width: 300px;
+        text-align: center;
+        
+        
     }
+    a:last-child {
+        border-bottom: solid;
+        width: 300px;
+        text-align: center;
+
+    }
+
+    
 
     .contentbox2 {
         display: flex;
         flex-direction: column;
         width: 500px;
+        
         
     }
 
@@ -268,6 +281,11 @@ a:first-child{
         display: flex;
         width: 500px;
         flex-direction: column;
+    }
+
+    /* .Navfix {
+        border: solid red;
+        margin-left: 70px; */
     }
 
     nav {
@@ -279,7 +297,7 @@ a:first-child{
     }
 
     body {
-        width: 45%;
+        width: 100%;
     }
 
     .middle-img {
