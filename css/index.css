@@ -76,7 +76,7 @@ body {
 }
 
 .nav_bar {
-  width: 60%
+  width: 40%;
    
 }
 
@@ -173,10 +173,18 @@ footer {
         
     }
     .nav_bar {
-        width: 150%
-         
+        width: 100%;
+       /* border: 1px solid black; */
+         display: flex;
+         justify-content: center;
       }
-    
+    .nav_bar nav{
+        /* border: 1px solid black; */
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
     .NavLogo {
         margin-left: auto;
         margin-right: auto;
@@ -255,9 +263,10 @@ footer {
         flex-direction: column;
     }
 
-    /* .Navfix {
-        border: solid red;
-        margin-left: 70px; */
+    /*Commenting out messed everything up?  */
+    .Navfix {
+        /* border: solid red; */
+        margin-left: 70px;
     }
 
     nav {
@@ -267,7 +276,13 @@ footer {
         flex-direction: column;
         
     }
-
+    /* Makes the nav bar a column at 500px and lower */
+    .nav_bar nav{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    
     body {
         width: 100%;
     }
