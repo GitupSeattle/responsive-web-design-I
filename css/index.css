@@ -127,7 +127,7 @@ body {
 	display: flex;
 	flex: nowrap;
 	 /* display: inline-block;  */
-	margin: 0%;
+	margin: 1%;
 	/* width: 46%;	 */
 	padding-top: 50px;
   padding-right: 30px;
@@ -140,7 +140,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	/* display: inline-block; */
-	margin: 0%;
+	margin: 1%;
 	/* width: 31%;	 */
 	padding-top: 50px;
     padding-right: 30px;
@@ -165,7 +165,8 @@ footer {
     .contentbox1 img {
         display: none;
     }
-/* Fixes body problems at 800px and below */
+
+    /* Fixes body problems at 800px and below */
 body{
     width: 100%;
     margin: none;
@@ -205,28 +206,28 @@ body{
     .contentbox2 {
         display: flex;
         width: 803px;
-       padding-left: 40px;
-       padding-right: 40px;
+       /* padding-left: 40px; */
+       /* padding-right: 40px; */
                 
     }
 
     .contentbox3 {
         display: flex;
         width: 789px;
-        padding-left: 40px;
-       padding-right: 40px;
+        /* padding-left: 40px; */
+       /* padding-right: 40px; */
     
     }
 
     .middle-img {
         width: 800px;
-        padding-left: 20px;
-       padding-right: 20px;
+        /* padding-left: 20px;
+       padding-right: 20px; */
     }
 
     .contact{
-        padding-left: 40px;
-        padding-right: 40px;   
+        /* padding-left: 40px;
+        padding-right: 40px;    */
     }
 }
 
