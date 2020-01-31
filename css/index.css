@@ -210,6 +210,9 @@ body{
        /* padding-right: 40px; */
                 
     }
+    .contentbox2_{
+        padding-right: 40px;
+    }
 
     .contentbox3 {
         display: flex;
@@ -217,6 +220,9 @@ body{
         /* padding-left: 40px; */
        /* padding-right: 40px; */
     
+    }
+    .contentbox3_{
+        padding-right: 40px;
     }
 
     .middle-img {
@@ -226,8 +232,8 @@ body{
     }
 
     .contact{
-        /* padding-left: 40px;
-        padding-right: 40px;    */
+        padding-left: 10px;
+           
     }
 }
 
@@ -241,6 +247,7 @@ body{
         border-top: solid;
         width: 300px;
         text-align: center;
+        padding-top: 10px;
         
         
     }
@@ -248,6 +255,7 @@ body{
         border-bottom: solid;
         width: 300px;
         text-align: center;
+        padding-bottom: 20px;
 
     }
 
@@ -259,7 +267,8 @@ body{
         padding-top: 50px;
         padding-bottom: 50px; 
         padding-left: 90px;
-        border-bottom: 1px solid; 
+        /* border-bottom: 1px solid;  */
+        
     }
 
     
@@ -271,10 +280,13 @@ body{
         /* Using borders to try to space out text */
         /* border: 1px solid red; */
         
+     }
+     
+     .contentbox2_ {
+         padding-bottom: 20px;
+       
         
-        
-    }
-
+     }
     .contentbox3 {
         display: flex;
         width: 400px;
@@ -282,11 +294,15 @@ body{
         /* Using borders to try to space out text */
         /* border: 1px solid red; */
     }
-
+    .contentbox3_ {
+        padding-bottom: 20px;
+      
+       
+    }
     /*Commenting out messed everything up?  */
     .Navfix {
         /* border: solid red; */
-        margin-left: 70px;
+        margin-left: 40px;
     }
 
     nav {
@@ -301,6 +317,7 @@ body{
         display: flex;
         width: 100%;
         flex-direction: column;
+        align-items: baseline;
     }
     
     body {
@@ -309,7 +326,7 @@ body{
     }
 
     .middle-img {
-        width: 500px;
+        width: 435px;
     }
 
    
