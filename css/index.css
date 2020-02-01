@@ -1,3 +1,336 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+    width: 45%;
+    margin: auto;
+}
+
+.Navfix{
+    display: flex;
+   
+}
+
+.nav_bar {
+  width: 60%;
+   
+}
+
+.nav_bar a {
+    border: 2 grey;
+	margin: 3%;
+	color: grey;
+	text-decoration: none;
+}
+
+.contentbox1 {
+	display: flex;
+	align-items: center;
+	/* display: inline-block;*/
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+	border-bottom: 1px solid; 
+}
+.contentbox1 h1 {
+	font-size: 75px;
+	
+}
+.contentbox1_ {
+
+	/* display: inline-block; */
+	padding-left: 100px;
+}
+.contentbox1_content{
+	/* display: inline-block; */
+	padding: 2%;
+	text-align: center; 
+
+	
+}
+ .contentbox1_content p{
+	border: 2px solid black;
+	text-align: center;
+	width: 50%;
+	margin: 15%;
+	font-size: 20px;
+	color: grey;
+	
+}
+
+
+.contentbox2 {
+    display: flex;
+	flex: nowrap;
+	 /* display: inline-block;  */
+	margin: 1%;
+	/* width: 46%;	 */
+	padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+	text-align: left;
+	font-size: 16px;
+}
+.contentbox3 {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+	/* display: inline-block; */
+	margin: 1%;
+	/* width: 31%;	 */
+	padding-top: 50px;
+    padding-right: 30px;
+	padding-bottom: 50px;
+	font-size: 16px;
+	
+}
+
+.contact {
+	border-top: 1px solid;
+	padding: 20px 0;	
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	font-size: 12px;
+}
+
+/* At 800px [Tablet VIEW] And below do the following: */
+@media (max-width: 800px) {
+    .contentbox1 img {
+        display: none;
+    }
+
+    /* Fixes body problems at 800px and below */
+body{
+    width: 100%;
+    margin: none;
+}
+
+    .Navfix {
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
+    }
+    .nav_bar {
+        width: 100%;
+        display: flex;
+         justify-content: center;
+      }
+    .nav_bar nav{
+        display: flex;
+        width: 68%;
+        flex-direction: row;
+    }
+
+    .NavLogo {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 40px;
+    }
+
+.contentbox1{
+    display: flex;
+	justify-content: center;
+	width: 100%;
+	border-bottom: 1px solid; 
+
+}
+
+    .contentbox2 {
+        display: flex;
+        width: 803px;
+       /* padding-left: 40px; */
+       /* padding-right: 40px; */
+                
+    }
+    .contentbox2_{
+        padding-right: 40px;
+    }
+
+    .contentbox3 {
+        display: flex;
+        width: 789px;
+        /* padding-left: 40px; */
+       /* padding-right: 40px; */
+    
+    }
+    .contentbox3_{
+        padding-right: 40px;
+    }
+
+    .middle-img {
+        width: 800px;
+        /* padding-left: 20px;
+       padding-right: 20px; */
+    }
+
+    .contact{
+        padding-left: 10px;
+           
+    }
+}
+
+ /* At 500px [Mobile VIEW] And below do the following: */
+ @media (max-width: 500px) {
+    .contentbox1 img {
+        display: none;
+    }
+    
+    a {
+        border-top: solid;
+        width: 300px;
+        text-align: center;
+        padding-top: 10px;
+        
+        
+    }
+    a:last-child {
+        border-bottom: solid;
+        width: 300px;
+        text-align: center;
+        padding-bottom: 20px;
+
+    }
+
+    .contentbox1 {
+        display: flex;
+        align-items: left;
+        /* display: inline-block;*/
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px; 
+        padding-left: 90px;
+        /* border-bottom: 1px solid;  */
+        
+    }
+
+    
+
+    .contentbox2 {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        /* Using borders to try to space out text */
+        /* border: 1px solid red; */
+        
+     }
+     
+     .contentbox2_ {
+         padding-bottom: 20px;
+       
+        
+     }
+    .contentbox3 {
+        display: flex;
+        width: 400px;
+        flex-direction: column;
+        /* Using borders to try to space out text */
+        /* border: 1px solid red; */
+    }
+    .contentbox3_ {
+        padding-bottom: 20px;
+      
+       
+    }
+    /*Commenting out messed everything up?  */
+    .Navfix {
+        /* border: solid red; */
+        margin-left: 40px;
+    }
+
+    nav {
+        display: flex;
+        font-size: 30px;
+        width: 100px;
+        flex-direction: column;
+        
+    }
+    /* Makes the nav bar a column at 500px and lower */
+    .nav_bar nav{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    
+    body {
+        width: 80%;
+        
+    }
+
+    .middle-img {
+        width: 435px;
+    }
+
+   
+   
+}
 
 
